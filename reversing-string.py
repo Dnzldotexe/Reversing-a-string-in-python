@@ -18,4 +18,24 @@
 #       }
 # }
 
+
 # Python Code
+# str = str(input("Please Enter a Word: "))
+# nstr = ''
+
+# for x in str:
+#     ch = str[x]
+#     nstr = ch + nstr
+
+#     x = x + 1
+
+# print(nstr)
+
+
+# Python Code
+str = str(input("Please Enter a Word: "))
+nstr = ''
+for x in str:
+    nstr = x + nstr
+
+print(f"The Reversed Word is: '{nstr}'")
